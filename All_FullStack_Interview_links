@@ -1,0 +1,108 @@
+---------
+Javascript_coding (4 hour)
+----------------------------------------------------------
+https://www.interviewbit.com/javascript-interview-questions/
+https://www.keka.com/javascript-coding-interview-questions-and-answers
+https://www.toptal.com/javascript/interview-questions
+https://flexiple.com/javascript/find-duplicates-javascript-array
+-----------------------------------------------------------
+
+Angular interview:
+------------------
+Quick-Brush-Up
+-------------
+https://www.weekday.works/post/angular-interview-questions-answers-2024
+https://www.vantagelens.com/blog/angular-interview-questions-with-answers/
+https://testbook.com/interview/angular-interview-questions?form=MG0AV3
+https://www.acte.in/angular-interview-questions-and-answers
+https://flexiple.com/angular/interview-questions
+----------------
+Angular Complete
+----------------
+https://www.wecreateproblems.com/interview-questions/angular-interview-questions
+https://github.com/khan4019/angular-interview-questions
+https://github.com/sv222/cloud-engineer-interview-questions
+https://github.com/Yonet/Angular-Interview-Questions
+--------
+Senario:
+--------
+https://www.lambdatest.com/learning-hub/angular-interview-questions
+https://hellointern.in/blog/rxjs-interview-questions-and-answers-for-2-years-experience-47560
+
+Communication:
+--------------
+https://harshaldeoreblog.wordpress.com/70-toughest-interview-questions-and-answers/
+https://www.csharp.com/article/learn-angular-8-step-by-step-in-10-days-component-day-2/
+
+Based on this Angular (latest) + Node.js + RxJS/NgRx + Docker + JWT Full‑Stack role, here are direct, role‑mapped interview preparation links — no generic stuff.
+
+## ✅ Angular (Latest Versions) – Core + Advanced
+Focus: Angular architecture, performance, lazy loading, RxJS, NgRx, signals, testing
+
+   Advanced Angular Interview Questions (Angular 16–19, architecture & performance)  
+    <https://www.drarsalan.com/2025/08/12/advanced-angular-interview-questions    
+
+   Complete Angular Interview Q\&A (RxJS, NgRx, Routing, Forms)  
+    <https://sonvendra.github.io/questions/questions-answers.html>    
+
+   NgRx‑Focused Interview Questions (Actions, Reducers, Effects)  
+    <https://climbtheladder.com/ngrx-angular-interview-questions/>  
+
+   Angular 16–19 GitHub Interview Repo (Security, SSR, Performance)  
+    <https://github.com/piyalidas10/Angular-Interview-Questions>   
+
+
+## ✅ RxJS (Very Important for This JD)
+Focus: Observables, Subjects, operators, memory leaks, switchMap vs mergeMap
+
+   Top RxJS Interview Questions (Beginner → Advanced)  
+    <https://www.linkedin.com/pulse/top-rxjs-interview-questions-answers-2025-guide-roshan-chaturvedi-ntplf>    
+
+## ✅ Node.js + Express.js + REST APIs
+Focus: Middleware, async handling, error handling, REST design, scalability
+
+   Complete Node.js Backend Interview Guide (2026)  
+    <https://easyinterview.me/blogs/the-interview-questions-that-matter/complete-nodejs-backend-developer-interview-guide>    
+
+   Express.js Interview Questions (Middleware, Routing, Error Handling)  
+    <https://www.geeksforgeeks.org/node-js/top-50-express-js-interview-questions-and-answers/>    
+
+   REST API Interview Questions (Node + Express + MongoDB)  
+    <https://github.com/prathameshkaratkar/REST-API/blob/main/interview-questions.md>    
+
+## ✅ JWT Authentication (Explicitly Mentioned in JD)
+
+Focus: Access vs Refresh tokens, security, token lifecycle
+
+   JWT Authentication Interview Guide (Backend‑Focused)  
+    <https://easyinterview.me/blogs/the-interview-questions-that-matter/authentication-jwt-interview-guide>    
+
+   Advanced JWT Interview Questions (Security & Token Design)  
+    <https://www.secondtalent.com/interview-guide/jwt/>    [\[secondtalent.com\]](https://www.secondtalent.com/interview-guide/jwt/)
+
+## ✅ Docker & Containerization
+
+Focus: Dockerfile, images vs containers, Node/Angular Dockerization
+
+   Docker Interview Questions (Beginner → Advanced)  
+    <https://www.geeksforgeeks.org/devops/docker-interview-questions/>   
+	
+   Docker Interview Guide (2026 – Practical Focus)  
+    <https://www.datacamp.com/blog/docker-interview-questions>    
+
+
+## ✅ Full‑Stack (Angular + Node + MongoDB) – End‑to‑End
+
+   Full Stack Developer Interview Questions (Angular + Node + DB)  
+    <https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/>    
+
+## ✅ Mock Interview (Exact Stack Match)
+
+   Mock Interview: Angular + Node.js + MongoDB (Mid–Senior)  
+    <https://www.intervue.io/full-stack-mock-interviews-for-mean-skill-mongo-db-node-js-angular-mid-senior>    
+
+## 🎯 How to Prepare Smartly (Mapped to Your JD)
+   Angular: Lazy loading, change detection, RxJS operators, NgRx flow
+   Backend: Express middleware, REST API design, JWT security
+   DevOps: Dockerfile for Angular + Node, environment configs
+   Scenario Questions: Performance issues, state management, API failures
