@@ -1,108 +1,126 @@
-==========================### **1. Product Definition & Requirement Gathering**===============================
-#### 🔹 *User Requirements*
-- Identify primary users and their roles.
-- Estimate user volume and role-based access.
-- Determine device usage (mobile, desktop, tablet).
-- Assess need for mobile UI or responsive design.
-- Clarify if multiple instances of the app will run.
+## **1. Product Definition & Requirement Gathering**
 
-#### 🔹 *Functional Requirements*
-- Define core product functionalities.
-- List all actions the application should perform.
-- Break down features into modules/screens.
-- Map APIs to screens and estimate round-trip request complexity.
+### 🔹 User Requirements
+- Identify primary users and their roles.  
+- Estimate user volume and role-based access.  
+- Determine device usage (mobile, desktop, tablet).  
+- Assess need for mobile UI or responsive design.  
+- Clarify if multiple instances of the app will run.  
 
-#### 🔹 *Technical Requirements*
-- Number of UI screens and their complexity.
-- Reference existing wireframes or prototypes.
-- Define architecture: monolith vs. microservices.
-- Technology stack: ReactJS (mandatory or flexible?), libraries, frameworks.
-- API authentication mechanism: Password, OAuth, JWT, etc.
-- Backend schema alignment with UI.
-- Device targeting and responsive design strategy.
+### 🔹 Functional Requirements
+- Define core product functionalities.  
+- List all actions the application should perform.  
+- Break down features into modules/screens.  
+- Map APIs to screens and estimate round-trip request complexity.  
 
-#### 🔹 *Non-Functional Requirements*
-- Performance expectations.
-- Security standards (OWASP, CORS, SSO).
-- Accessibility compliance.
-- Maintainability and scalability.
+### 🔹 Technical Requirements
+- Number of UI screens and their complexity.  
+- Reference existing wireframes or prototypes.  
+- Define architecture: monolith vs. microservices.  
+- Technology stack: ReactJS (mandatory or flexible?), libraries, frameworks.  
+- API authentication mechanism: Password, OAuth, JWT, etc.  
+- Backend schema alignment with UI.  
+- Device targeting and responsive design strategy.  
 
-=============================### **2. Analysis Phase**=============================
+### 🔹 Non-Functional Requirements
+- Performance expectations.  
+- Security standards (OWASP, CORS, SSO).  
+- Accessibility compliance.  
+- Maintainability and scalability.  
 
-#### 🔹 *Requirement Analysis*
-- Validate gathered requirements.
-- Interface analysis: interaction with other systems.
-- Define user stories (Who, What, Why).
-- Categorize RESTful resources (e.g., vehicle/car/purchase).
-
-#### 🔹 *Technology Selection*
-- Choose frontend frameworks (ReactJS, alternatives).
-- Select libraries (ECharts, Bootstrap, etc.).
-- Decide on architecture (MVC, MVP, MVVM).
-- Evaluate microservice feasibility.
-
-#### 🔹 *Workflow & Navigation*
-- Define user journeys and screen transitions.
-- Map navigation logic and screen dependencies.
-
-==================================### **3. Design Phase**===================================
-#### 🔹 *Wireframing & Prototyping*
-- Create low-fidelity sketches and clickable prototypes.
-- Design branding, appearance, and layout.
-- Define visual hierarchy and UI components.
-
-#### 🔹 *Design Specifications*
-- Document design standards and UI guidelines.
-- Ensure consistency across screens and devices.
-
-===================================### **4. User Experience (UX) Design**====================
-
-#### 🔹 *High-Level UX Design*
-- Illustrate user behavior and interaction flows.
-- Identify key touchpoints and feedback mechanisms.
-- Validate UX with stakeholders using prototypes.
-
-=============================================### **5. Development Phase**==============================================================
-#### 🔹 *Frontend Development*
-- Build UI using ReactJS, Bootstrap, ECharts.
-- Implement reusable components and layouts.
-- Integrate APIs and handle request/response logic.
-
-#### 🔹 *Coding Standards & Practices*
-- Frequent commits with meaningful messages.
-- Use ESLint, Husky for code quality.
-- Apply BEM methodology for CSS.
-- Separate dev and prod dependencies.
-- Use CSS preprocessors (SASS/LESS).
-- Optimize performance and memory usage.
-- Follow accessibility and security standards.
-
-#### 🔹 *Architecture & Tools*
-- Use Gulp/Webpack for bundling.
-- Apply design patterns (MVC, MVVM).
-- Manage dependencies and enable tree shaking.
-- Handle CORS, SSO, and OWASP compliance.
-
-### **6. Validation & Testing**
-#### 🔹 *Testing & Debugging*
-- Perform UI testing and integration testing.
-- Use Jasmine/Karma for unit tests.
-- Debug using browser DevTools and console.
-- Conduct linting (ES6) and static code analysis (Sonar/Checkmarx).
-
-#### 🔹 *Quality Assurance*
-- Validate performance tuning.
-- Check for memory leaks.
-- Ensure compliance with coding standards.
 ---
-### **7. Deployment & Delivery**
-#### 🔹 *Build & Deployment*
-- Prepare builds (standard or Docker-based).
-- Deploy to staging/production environments.
-- Monitor application health and performance.
 
-#### 🔹 *Post-Deployment Support*
-- Provide integration support.
-- Maintain version control and rollback strategies.
-- Plan for future enhancements and scalability.
+## **2. Analysis Phase**
+
+### 🔹 Requirement Analysis
+- Validate gathered requirements.  
+- Interface analysis: interaction with other systems.  
+- Define user stories (Who, What, Why).  
+- Categorize RESTful resources (e.g., vehicle/car/purchase).  
+
+### 🔹 Technology Selection
+- Choose frontend frameworks (ReactJS, alternatives).  
+- Select libraries (ECharts, Bootstrap, etc.).  
+- Decide on architecture (MVC, MVP, MVVM).  
+- Evaluate microservice feasibility.  
+
+### 🔹 Workflow & Navigation
+- Define user journeys and screen transitions.  
+- Map navigation logic and screen dependencies.  
+
+---
+
+## **3. Design Phase**
+
+### 🔹 Wireframing & Prototyping
+- Create low-fidelity sketches and clickable prototypes.  
+- Design branding, appearance, and layout.  
+- Define visual hierarchy and UI components.  
+
+### 🔹 Design Specifications
+- Document design standards and UI guidelines.  
+- Ensure consistency across screens and devices.  
+
+---
+
+## **4. User Experience (UX) Design**
+
+### 🔹 High-Level UX Design
+- Illustrate user behavior and interaction flows.  
+- Identify key touchpoints and feedback mechanisms.  
+- Validate UX with stakeholders using prototypes.  
+
+---
+
+## **5. Development Phase**
+
+### 🔹 Frontend Development
+- Build UI using ReactJS, Bootstrap, ECharts.  
+- Implement reusable components and layouts.  
+- Integrate APIs and handle request/response logic.  
+
+### 🔹 Coding Standards & Practices
+- Frequent commits with meaningful messages.  
+- Use ESLint, Husky for code quality.  
+- Apply BEM methodology for CSS.  
+- Separate dev and prod dependencies.  
+- Use CSS preprocessors (SASS/LESS).  
+- Optimize performance and memory usage.  
+- Follow accessibility and security standards.  
+
+### 🔹 Architecture & Tools
+- Use Gulp/Webpack for bundling.  
+- Apply design patterns (MVC, MVVM).  
+- Manage dependencies and enable tree shaking.  
+- Handle CORS, SSO, and OWASP compliance.  
+
+---
+
+## **6. Validation & Testing**
+
+### 🔹 Testing & Debugging
+- Perform UI testing and integration testing.  
+- Use Jasmine/Karma for unit tests.  
+- Debug using browser DevTools and console.  
+- Conduct linting (ES6) and static code analysis (Sonar/Checkmarx).  
+
+### 🔹 Quality Assurance
+- Validate performance tuning.  
+- Check for memory leaks.  
+- Ensure compliance with coding standards.  
+
+---
+
+## **7. Deployment & Delivery**
+
+### 🔹 Build & Deployment
+- Prepare builds (standard or Docker-based).  
+- Deploy to staging/production environments.  
+- Monitor application health and performance.  
+
+### 🔹 Post-Deployment Support
+- Provide integration support.  
+- Maintain version control and rollback strategies.  
+- Plan for future enhancements and scalability.  
+
 ---
