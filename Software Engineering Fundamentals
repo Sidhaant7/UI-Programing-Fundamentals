@@ -1,0 +1,63 @@
+
+
+✅ This categorization makes it easier to **map your prep to role expectations**:  
+- **Frontend Engineer** → Angular/React, UI/UX, performance, testing.  
+- **Full-stack Engineer** → Add backend APIs, security, microservices.  
+- **DevOps/Data Engineer** → CI/CD, cloud, big data, MLOps.  
+- **Tech Lead/Architect** → System design, design patterns, leadership, communication. 
+
+
+## 🟢 Frontend Development (Angular, React, UI/UX)
+- **Angular Concepts**: Zone.js, AOT compilation, Interceptors, Template-driven forms, Services, Dependency Injection, Lifecycle hooks, Change detection (Default vs OnPush), ViewChild & Content Projection, Custom Directives, Pipes, HTTP calls, Lazy loading, Angular folder structure.  
+- **React Concepts**: Stateful vs Stateless components, Forms/events, Popular libraries, Design patterns (MVC, MVP, MVVM).  
+- **Performance & Build Tools**: Webpack, ESBuild, Gulp, Tree shaking, Performance tuning, Memory leakage handling.  
+- **UI/UX & Styling**: Material design, CSS preprocessors, BEM methodology, Accessibility standards, User interface qualities.  
+- **Testing & Quality**: Jasmine/Karma, ESLint, Husky, Sonar/Checkmarx, Linting (ES6).  
+
+---
+
+## 🔵 Backend & API Development
+- **Node.js / Express.js**: REST API development, CORS handling, JWT/OAuth security.  
+- **Databases**: MySQL, MongoDB, SQL fundamentals.  
+- **Security**: Authentication & Authorization, OWASP knowledge, API security measures.  
+- **Microservices**: Design, deployment, communication patterns.  
+
+---
+
+## 🟣 DevOps & Deployment
+- **CI/CD**: Jenkins, AWS CodePipeline, Git, Version control, Frequent commits with proper messages.  
+- **Containers & Orchestration**: Docker, Kubernetes.  
+- **Deployment**: Normal builds, Docker images, Migration strategies.  
+- **Monitoring & Debugging**: Sonar, Checkmarx, DevTools, Console usage.  
+
+---
+
+## 🟡 Cloud & Data Engineering
+- **Cloud Platforms**: AWS services, Azure Synapse, Google BigQuery.  
+- **Data Tools**: Databricks, PySpark, Apache Spark, Hadoop, AWS Redshift.  
+- **Visualization**: Power BI, Tableau.  
+- **MLOps**: Model deployment, monitoring, integration with cloud.  
+
+---
+
+## 🔴 Software Engineering Fundamentals
+- **Design Patterns**: Singleton, Factory, Observer.  
+- **System Design**: Load balancing, Caching, Sharding, CAP theorem, Consistency.  
+- **Low-Level Design**: Class diagrams, OOP principles.  
+- **Coding Standards**: Clean, scalable, documented codebases; code reviews.  
+- **DSA Prep**: Arrays, Linked lists, Trees, Graphs, Heaps, Hashing, Sorting, Searching, Dynamic programming, Backtracking.  
+- **Competitive Programming**: LeetCode practice, algorithmic problem solving.  
+
+---
+
+## ⚖️ Soft Skills & Leadership
+- Communication & stakeholder management.  
+- Leading cross-functional teams.  
+- Collaboration across teams.  
+- Ensuring delivery quality.  
+- Mentoring developers on best practices.  
+
+---
+
+ 
+
