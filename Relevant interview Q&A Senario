@@ -1,0 +1,50 @@
+Here are the most relevant Angular-heavy Tech Lead questions + expected answer points:
+
+ A) Role-fit (5 mins)
+1.  Walk me through your last 2–3 years. What were you personally accountable for?  
+    Strong answer should include: clear ownership (features/modules/architecture), team size, stakeholders, measurable impact, examples of leadership (reviews, delegation, risk mgmt).
+2.  What does “Front-End Architecture” mean in your day-to-day?  
+    Expect: decisions on module boundaries, shared libs, state strategy, performance standards, testing strategy, CI gates, upgrade strategy, design system governance.
+
+ B) Angular Architecture (12–27 mins)
+3.  How do you structure a large Angular codebase?  
+    Expect: domain/feature modules, shared/core separation, lazy-loaded routes, strict linting/TS config, library strategy (Nx/monorepo optional), clear boundaries to avoid circular deps.
+4.  When do you introduce NgRx (vs services + RxJS)?  
+    Expect: criteria (complex shared state, time-travel/debugging needs, multi-step workflows), avoiding over-engineering, feature-store pattern, selectors, effects, entity, facade pattern.
+5.  How do you version/publish shared UI libraries without breaking apps?  
+    Expect: semantic versioning, deprecation policy, changelogs, backward-compatible APIs, CI validation matrix, migration guides, “canary” adoption.
+
+
+ C) Angular Deep Dive (27–42 mins) — must-ask
+6.  Explain Angular change detection and how you optimize it.  
+    Expect: default vs OnPush, immutability, async pipe, trackBy, avoiding function calls in templates, pushing work out of templates, profiling, zone.js awareness.
+7.  RxJS: switchMap vs mergeMap vs concatMap—where do you use each?  
+    Expect: cancellation with switchMap (typeaheads, route changes), mergeMap for parallel work, concatMap for sequencing, error handling (catchError), avoiding nested subscriptions, takeUntil teardown.
+8.  Reactive forms: how do you handle complex/dynamic forms?  
+    Expect: FormBuilder, FormArray, custom validators, async validators, typed forms (if applicable), clean valueChanges handling, patchValue vs setValue, performance considerations.
+9.  Interceptors/guards/resolvers—give real examples.  
+    Expect: auth header + refresh token flow (interceptor), route auth/roles (guard), prefetch critical data (resolver) with error/empty-state handling.
+10. Describe an Angular upgrade you led (e.g., 9 → 12). What broke and how did you de-risk it?  
+    Expect: incremental upgrades, Angular update guide, dependency audit, strict TS changes, build pipeline updates, testing gates, rollout plan, fallback.
+
+
+ D) Testing & Quality (42–52 mins)
+11. How do you unit test Observables/services and components (Jasmine/Karma)?  
+    Expect: TestBed setup, mocking HttpClient (HttpTestingController), marble testing optional, fakeAsync/tick, stable selectors, testing async pipe flows, avoiding brittle DOM tests.
+12. What’s your overall testing strategy (unit/integration/e2e) for Angular apps?  
+    Expect: test pyramid, critical user journeys for e2e, contract tests for APIs if possible, CI enforcement, coverage used wisely (not vanity).
+
+
+ E) Leadership (52–58 mins)
+13. How do you run code reviews for Angular/RxJS/NgRx work?  
+    Expect: checklist (architecture boundaries, state anti-patterns, memory leaks, template perf, typing), mentoring tone, consistency via lint rules and shared patterns.
+14. How do you manage tech debt in long-running Angular apps?  
+    Expect: debt register, prioritization with product, refactoring budget, upgrade cadence, “boy scout rule”, measurable outcomes (defects, cycle time).
+
+
+ F) Project deep-dive (sprinkle into B/C)
+15. Recast (Angular 9/12): data lineage dashboard—how did you model lineage and optimize rendering?  
+    Expect: graph rendering approach, virtualization, incremental rendering, caching, API pagination, performance profiling evidence.
+16. AOS (Angular 6): state, REST integration, and unit tests—what patterns did you use?  
+    Expect: separation of concerns, services/facades, error handling, loading states, test strategy, deployment considerations.
+If you say “give me answer key in table”, I’ll add a table into your Word document with columns: Question | What to listen for | Red flags | Score (1–5).
