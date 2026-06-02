@@ -1,0 +1,23 @@
+If you want to learn Agentic AI, start here:
+
+Foundations (LLMs + Basics)
+
+* OpenAI Docs → [https://platform.openai.com/docs]
+* Hugging Face Course → [https://huggingface.co/learn]
+* DeepLearning.AI Short Courses → [https://www.deeplearning.ai/short-courses/]
+
+Agent Frameworks
+
+* LangChain Docs → [https://python.langchain.com]
+* LlamaIndex Docs → [https://docs.llamaindex.ai]
+* Microsoft AutoGen → [https://github.com/microsoft/autogen]
+* CrewAI → [https://docs.crewai.com]
+
+Build and Practice
+
+* OpenAI Cookbook → [https://github.com/openai/openai-cookbook]
+* Kaggle → [https://www.kaggle.com]
+* Google Colab → [https://colab.research.google.com]
+* GitHub (search: agentic AI projects) → [https://github.com]
+
+Rule: Don’t just learn Agentic AI. Build agents while learning.
